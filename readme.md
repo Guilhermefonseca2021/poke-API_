@@ -1,0 +1,3 @@
+aplicando conceitos de cores co base na paleta de proprio conteudopresentes na imagem aplicando harmonia e prendendo atencao.
+
+ainda em atualizacao...
