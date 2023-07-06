@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="./images/pokebola.png">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            background-color: #e64110;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        form {
+            display: block;
+            width: 300px;
+            margin: 200px auto;
+            padding: 40px;
+            background-color: #084152;
+            color: #C5C6C7;
+            text-align: center;
+        }
+
+        form > h1 {
+            margin-bottom: 30px;
+            background-color: #084152;
+        }
+
+        form > input {
+            display: block;
+            box-sizing: border-box;
+            margin: auto;
+            width: 100%;
+            padding: 10px;
+            background-color: white;
+            border-radius: 5px;
+            border: none;
+            margin-bottom: 15px;
+        }
+
+
+        #enviar {
+            background-color: #207394;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <form>
+        <h1>login</h1>
+        <input type="text" placeholder="e-mail">
+        <input type="password" placeholder="senha">
+        <input id="enviar" type="submit" onclick="entrar(); return false" placeholder="enviar">
+
+    </form>
+
+    <script>
+        function entrar() {
+            location.href = "home.html"
+        }
+    </script>
+</body>
+</html>
