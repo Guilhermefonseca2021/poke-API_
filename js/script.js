@@ -1,3 +1,10 @@
-let pokeContainer = document.getElementById("poke")
+let Theme = document.getElementById("theme")
 
-let 
+Theme.addEventListener('click', () => {
+    if (Theme.classList.contains("dark-theme")) {
+        Theme.classList.remove("dark-theme")
+        Theme.classList.add("lighttheme")
+    }
+
+
+});
