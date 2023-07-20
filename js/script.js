@@ -1,10 +1,6 @@
-let Theme = document.getElementById("theme")
+let changeThemeBtn = document.querySelector("#change-theme")
 
-Theme.addEventListener('click', () => {
-    if (Theme.classList.contains("dark-theme")) {
-        Theme.classList.remove("dark-theme")
-        Theme.classList.add("lighttheme")
-    }
-
-
+changeThemeBtn.addEventListener('click', () => {
+    // acesso o document p body e vejo a lista e dispao "toggle" dark meu tema para lista de classes
+    document.body.classList.toggle("light-theme")
 });

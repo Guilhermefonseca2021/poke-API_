@@ -4,8 +4,16 @@
     padding: 0;
 }
 
-body {
+body.dark-theme {
     background: linear-gradient(to right, #247BA0, #006494);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body.light-theme {
+    background: linear-gradient(to right, #cd5241, #f6a410);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,7 +24,7 @@ header {
     display: flex;
     width: 100%;
     padding: 0.7rem;
-    background-color: #23232e;
+    background-color: #084152;
     justify-content: flex-end;
     align-items: center;
     text-decoration: none;
@@ -33,7 +41,7 @@ h1 {
     color: #E1F8F2;
 }
 
-.theme > img {
+#change-theme > img {
     width: 30px;
 }
 
