@@ -1,6 +1,9 @@
 <h2>liguagens usadas. </h2>
 <h2>📊Working </h2>
 
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+
+
 # fixed dark-theme:
 -
 was with our function i was using switch but i made a image to click so my system wasn t undertding i'd have made addeventlistner click so i do, after gave some looks i will to try improve ;root in css, need so much try to change header when dark-them trnsition to light.
