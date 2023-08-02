@@ -51,6 +51,11 @@ h1 {
     color: #E1F8F2;
 }
 
+h1 > img {
+    width: 20px;
+    margin-right: 5px;
+}
+
 #change-theme > img {
     width: 30px;
 }
