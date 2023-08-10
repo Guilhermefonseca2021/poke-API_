@@ -14,5 +14,6 @@ Este é o repositório do Pokedex, uma aplicação web que consome uma API de Po
 - Exibição de informações detalhadas sobre cada Pokemon, como tipo, habilidades, estatísticas e evoluções.
 - Exibição de imagens dos Pokemons.
 
+<a href="https://weather-app-eljm.vercel.app/">teste agora </a>
 
 https://github.com/Guilhermefonseca2021/pokedex/assets/92196697/27183fbc-6b64-4b13-b9d5-b3f12e0112b9
